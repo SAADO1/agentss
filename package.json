@@ -1,0 +1,23 @@
+{
+  "name": "research-intelligence-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "backend": "cd .. && python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000",
+    "frontend": "vite",
+    "dev": "concurrently \"npm:backend\" \"npm:frontend\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+"dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.1"
+},
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "concurrently": "^10.0.3",
+    "vite": "^5.4.0"
+  }
+}
