@@ -1,0 +1,17 @@
+beautifulsoup4
+requests
+rich
+fastapi
+uvicorn[standard]
+
+langchain
+langchain-core
+langchain-community
+langchain-groq
+tavily-python
+streamlit
+google-cloud-speech 
+pyaudio 
+sounddevice 
+soundfile 
+numpy
